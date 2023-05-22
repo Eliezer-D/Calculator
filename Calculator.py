@@ -1,11 +1,6 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[1]:
-
 
 import math
-
+#creation d'une classe de symbole
 class Calculator:
     def __init__(self):
         self.operations = {
@@ -32,7 +27,7 @@ class Calculator:
             print("Résultat :", result)
         except Exception as e:
             print("Une erreur s'est produite :", str(e))
-
+#Creation de fonction
     def addition(self, num1, num2):
         return num1 + num2
 
@@ -85,10 +80,3 @@ while True:
         print("Les valeurs doivent être des nombres.")
 
 print("Fin du programme.")
-
-
-# In[ ]:
-
-
-
-
